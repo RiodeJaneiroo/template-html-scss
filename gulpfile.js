@@ -8,7 +8,7 @@ const gulp 			= require('gulp'),
 		prettify 	= require('gulp-html-beautify'),
 		sourcemaps 	= require('gulp-sourcemaps');
 
-const isDev = true;
+const isDev = true; // if false then remove soursemap in css
 
 gulp.task('scss', () => {
 	return gulp.src('./app/scss/main.scss')
@@ -34,7 +34,7 @@ gulp.task('pug', function () {
 });
 
 
-gulp.task('serv', () => {
+gulp.task('server', () => {
 	browserSync.init({
 		server: {
 			 baseDir: './app'
@@ -42,9 +42,9 @@ gulp.task('serv', () => {
 		notify: false
 	});
 
-		gulp.watch('./app/scss/*.scss', ['scss']);
-		gulp.watch('./app/pug/**/*.pug', ['pug']);
-		gulp.watch(['./app/**/*.js']).on('change', browserSync.reload);
+	gulp.watch('./app/scss/*.scss', ['scss']);
+	gulp.watch('./app/pug/**/*.pug', ['pug']);
+	gulp.watch(['./app/**/*.js']).on('change', browserSync.reload);
 });
 
-gulp.task('default', ['scss', 'serv']);
+gulp.task('default', ['scss', 'server']);

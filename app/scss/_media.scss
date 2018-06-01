@@ -1,5 +1,6 @@
 @import "media-queries";
-@import "var";
+@import "vars";
+
 @include mq($max-width: 1200px) {
   .container {
     width: 100%;
