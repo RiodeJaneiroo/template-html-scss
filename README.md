@@ -1,2 +1,2 @@
-# html_starterv2
-HTML Starter
+# HTML Starter
+HTML Starter Layout
