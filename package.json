@@ -1,30 +1,38 @@
 {
-  "name": "html_starterv2",
-  "version": "1.5.0",
-  "description": "HTML Starter",
+  "name": "new_blank",
+  "version": "1.0.0",
+  "description": "",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "magnific-popup": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "owl.carousel": "^2.3.4",
+    "svgxuse": "^1.2.6"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RiodeJaneiroo/html_starterv2.git"
-  },
-  "author": "V. Zmyevskii",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RiodeJaneiroo/html_starterv2/issues"
-  },
-  "homepage": "https://github.com/RiodeJaneiroo/html_starterv2#readme",
   "devDependencies": {
-    "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.9.4",
+    "bourbon": "^5.1.0",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
     "gulp-html-beautify": "^1.0.1",
     "gulp-if": "^2.0.2",
     "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4"
-  }
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^2.1.0",
+    "gulp-uglify": "^3.0.1",
+    "jquery-nice-select": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

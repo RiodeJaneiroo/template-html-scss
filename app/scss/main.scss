@@ -1,27 +1,9 @@
+@import "bourbon";
 @import "vars";
 
-* {
-	box-sizing: border-box;
- }
-
-
-.box-center,
-.flex {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-}
-.box-center {
-	justify-content: center;
-	align-items: center;
-}
-.text-center {
-	text-align: center;
-}
-
-.container {
-  width: $container;
-  margin: 0 auto;
-}
-
-@import "media";
+@import "base";
+@import "buttons";
+@import "layout/header";
+@import "layout/nav";
+@import "layout/content";
+@import "layout/footer";
