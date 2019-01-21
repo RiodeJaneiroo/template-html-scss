@@ -36,7 +36,7 @@ var  jsFiles = [
 
 
 function styles(){
-    return  gulp.src(['./app/scss/main.scss', './app/scss/media.scss'])
+    return  gulp.src('./app/scss/style.scss')
             .pipe(gulpIf(isDev, sourcemaps.init({largeFile: true})))
             .pipe(concat('style.min.css'))            
             .pipe(sass({includePaths: bourbon}).on('error', sass.logError))
