@@ -8,35 +8,31 @@
     "url": "https://github.com/RiodeJaneiroo/html_starterv2.git"
   },
   "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1",
     "magnific-popup": "^1.1.0",
     "normalize.css": "^8.0.1",
-    "owl.carousel": "^2.3.4",
-    "svgxuse": "^1.2.6"
+    "sass": "^1.50.1"
   },
   "devDependencies": {
-    "bourbon": "^5.1.0",
-    "browser-sync": "^2.26.3",
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-clean-css": "^4.0.0",
+    "browser-sync": "^2.27.9",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-html-beautify": "^1.0.1",
-    "gulp-if": "^2.0.2",
-    "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-svg-sprite": "^1.5.0",
-    "gulp-svgmin": "^2.1.0",
-    "gulp-uglify": "^3.0.1",
-    "jquery-nice-select": "^1.1.0"
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
